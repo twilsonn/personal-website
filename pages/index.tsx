@@ -180,20 +180,20 @@ const Home: NextPage = () => {
             </div>
             <p>
               As a flexible and detail-orientated professional, I am experienced
-              in delivering high-impact and cost-effective insights within the
-              supply chain industry to encourage data-driven decision-making and
-              increases in profitability. Gathering, cleaning, and analysing
-              data to drive business metrics, I regularly build automated
-              reports using technology such as SQL, Power BI, Kibana and Excel
-              VBA, successfully creating high-impact solutions for
-              organisations. Working under pressure and to tight deadlines, I am
-              capable of foreseeing potential risks and proactively looking to
-              implement data-led action to navigate any challenges quickly,
-              efficiently, and professionally. A strong communicator, I am
-              comfortable working through various scenarios with stakeholders
-              and colleagues to successfully resolve challenges and situations.
-              With a solid technical and analytical background, I am data-driven
-              and always proactively looking for improvement.
+              in delivering high-impact and cost-effective insights to encourage
+              data-driven decision-making and increases in profitability.
+              Gathering, cleaning, and analysing data to drive business metrics,
+              I regularly build automated reports using technology such as SQL,
+              Power BI, Kibana and Excel VBA, successfully creating high-impact
+              solutions for organisations. Working under pressure and to tight
+              deadlines, I am capable of foreseeing potential risks and
+              proactively looking to implement data-led action to navigate any
+              challenges quickly, efficiently, and professionally. A strong
+              communicator, I am comfortable working through various scenarios
+              with stakeholders and colleagues to successfully resolve
+              challenges and situations. With a solid technical and analytical
+              background, I am data-driven and always proactively looking for
+              improvement.
             </p>
           </div>
         </div>
