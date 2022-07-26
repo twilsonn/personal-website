@@ -76,6 +76,19 @@ const barcodeGenDescription: React.FC = () => {
   );
 };
 
+const BankAppDescription: React.FC = () => {
+  return (
+    <p className="px-6 pt-4 pb-2">
+      A banking console application created using{" "}
+      <a href="https://www.java.com/" className="text-blue-500 no-underline">
+        Java
+        <ExternalLink />
+      </a>
+      . Work in progress.
+    </p>
+  );
+};
+
 const projects = [
   {
     id: 1,
@@ -103,6 +116,15 @@ const projects = [
     image: blank,
     link: "",
     github: "https://github.com/twilsonn/barcode-generator",
+  },
+  {
+    id: 3,
+    name: "Banking App",
+    description: BankAppDescription,
+    complete: false,
+    image: blank,
+    link: "",
+    github: "https://github.com/twilsonn/BankingApp",
   },
 ];
 
