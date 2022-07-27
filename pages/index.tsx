@@ -6,7 +6,7 @@ import Link from "next/link";
 import headshot from "../public/headshot.jpg";
 import notedown from "../public/notedown.jpg";
 import todo from "../public/todo.jpg";
-import ims from "../public/ims.jpg";
+import ims from "../public/inventory.jpg";
 import blank from "../public/blank.jpg";
 import externalLink from "../public/external-link.svg";
 
