@@ -6,6 +6,7 @@ import Link from "next/link";
 import headshot from "../public/headshot.jpg";
 import notedown from "../public/notedown.jpg";
 import todo from "../public/todo.jpg";
+import ims from "../public/ims.jpg";
 import blank from "../public/blank.jpg";
 import externalLink from "../public/external-link.svg";
 
@@ -89,6 +90,19 @@ const BankAppDescription: React.FC = () => {
   );
 };
 
+const IMSAppDescription: React.FC = () => {
+  return (
+    <p className="px-6 pt-4 pb-2">
+      An inventory management system created using{" "}
+      <a href="https://www.java.com/" className="text-blue-500 no-underline">
+        Java
+        <ExternalLink />
+      </a>
+      . Work in progress.
+    </p>
+  );
+};
+
 const projects = [
   {
     id: 1,
@@ -114,17 +128,26 @@ const projects = [
     description: barcodeGenDescription,
     complete: false,
     image: blank,
-    link: "",
+    link: undefined,
     github: "https://github.com/twilsonn/barcode-generator",
   },
   {
-    id: 3,
+    id: 4,
     name: "Banking App",
     description: BankAppDescription,
     complete: false,
     image: blank,
-    link: "",
+    link: undefined,
     github: "https://github.com/twilsonn/BankingApp",
+  },
+  {
+    id: 5,
+    name: "Inventory Management System",
+    description: IMSAppDescription,
+    complete: false,
+    image: ims,
+    link: undefined,
+    github: "https://github.com/twilsonn/InventoryManagementSystem",
   },
 ];
 
@@ -193,6 +216,7 @@ const Home: NextPage = () => {
               <h1 className="text-5xl font-semibold m-0">Tyler Wilson</h1>
               <a
                 href="/cv.pdf"
+                target={"_blank"}
                 className="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50
                  focus:outline-none hover:text-black"
               >
@@ -235,7 +259,7 @@ const Home: NextPage = () => {
                 <div className="rounded-t-lg overflow-hidden">
                   <a
                     href={project.link}
-                    target={"_blank"}
+                    target={project.link ? "_blank" : "_parent"}
                     rel="noreferrer"
                     className="no-underline"
                   >
